@@ -9,7 +9,6 @@ export class AppComponent {
   title = 'Ornek1';
   //message?:string;//? boş geçilebilir
   message:string="Message";
-
   onChangeMessage(e:string){
     this.message=e;
   }

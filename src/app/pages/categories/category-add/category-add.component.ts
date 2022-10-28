@@ -13,7 +13,6 @@ export class CategoryAddComponent implements OnInit {
     categoryName: new FormControl('', []),
   });
   constructor(private _categoryService: CategoryServiceService) {}
-
   ngOnInit(): void {}
 
   onnSubmit() {
