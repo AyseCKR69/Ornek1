@@ -1,0 +1,35 @@
+<form [formGroup]="productAddForm">
+  <div class="mb-3">
+    <label for="productName" class="form-label">Product Name</label>
+    <input
+      type="text"
+      class="form-control"
+      name="productName"
+      placeholder="Product1"
+      formControlName="productName"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="productPrice" class="form-label">Product Price</label>
+    <input
+      type="text"
+      class="form-control"
+      name="productPrice"
+      placeholder="0,00"
+      formControlName="productPrice"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="productPicture" class="form-label">Product Picture</label>
+    <input
+      type="text"
+      class="form-control"
+      name="productPicture"
+      placeholder="https://orenek1.jpg/"
+      formControlName="productPicture"
+    />
+  </div>
+  <div class="mb-3">
+      <button class="btn btn-primary" (click)="onSubmit()">Kaydet</button>
+  </div>
+</form>

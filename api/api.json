@@ -1,0 +1,13 @@
+{
+  "products": [],
+  "categories": [
+    {
+      "categoryName": "kitap",
+      "id": 1
+    },
+    {
+      "categoryName": "kalem",
+      "id": 2
+    }
+  ]
+}
