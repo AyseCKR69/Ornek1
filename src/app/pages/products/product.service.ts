@@ -10,9 +10,16 @@ import { environment } from 'src/environments/environment';
 export class ProductService {
   constructor(private _httpClient: HttpClient) {}
 
-  AddProduct(productModel: ProductModel):Observable<ProductModel> {
-    return this._httpClient.post<ProductModel>
-    (`${environment.apiUrl}Products`, productModel);
-      
+  AddProduct(productModel: ProductModel): Observable<ProductModel> {
+    return this._httpClient.post<ProductModel>(
+      `${environment.apiUrl}Products`,
+      productModel
+    );
+  }
+
+  GetProductList(): Observable<ProductModel[]> {
+    return this._httpClient.get<ProductModel[]>(
+      `${environment.apiUrl}Products`
+    );
   }
 }

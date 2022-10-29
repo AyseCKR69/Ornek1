@@ -1,0 +1,14 @@
+<div class="row">
+  <div *ngFor="let item of productList"  class="col ">
+    <div class="card" style="width: 18rem">
+      <img [src]="item.productPicture" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ item.productName }}</h5>
+
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ng-for u yanlış anlamışşın burada tekrarlanan nesne hangisi -->
+<!-- Burada ben şimdi div in içinde kullandım ya o div in içindeki  heryerde itema ulaşa bilirim -->

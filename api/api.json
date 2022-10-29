@@ -4,8 +4,15 @@
       "categoryId": "1",
       "productName": "kitap",
       "productPrice": "10",
-      "productPicture": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBcIFBgWCBYZFhgYHB4cGhoaGiEcHxwlHBwgHR4eJyEcJS4lIR4uHxgYJjgpLC8xNTU1GiQ7QDs0Qy40NTEBDAwMEA8QHhISH0ArJSs0NDQ9Pz09ND80NDQ0NDQ0NDQ0NDY0MTQ1MTY0NDQ0NDQ9NDY/NDQ0MTQ0MTY2NDQ0NP/AABEIALgBEQMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAYBAwUHAgj/xAA9EAACAQIFAQUGBAUDAwUAAAABAgADEQQFEiExQQYiUWFxEzJCUoGRI3KhsQcUJMHwYtHhFbLSFjM0U6L/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAgQBAwUG/8QALREAAgICAQMCBQIHAAAAAAAAAAECAxEhBBIxUQVBIpGh0fATYSMzcYGxweH/2gAMAwEAAhEDEQA/APZoiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIBiImqtWWgC1YhQOSTYCDDeDYJzM2zqllK/1DXa2yDk/wCw8zKvn3bkULrlltvjYc+g/uZBwmJpduadSnjFKVEW4dTY77ageSAeVNxuJLpa7miHJqnLpT+xCw/8VjTrMMdS/DvYBfeG/mf88p6hg8SuNppUwxujqGU+IIuP3n5py/szis0eouEpMRTZld+FBUkMAeWNwdlueJ3sZ2orZTQp4TA1TaiWBNtLE6i1tugJsBfa0YLB7/MzzT+G3bSrm9Q4fNrFtBam/BOm2pT4mxuD5GelyLAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiJiAIkTG45MAhfFsFUdT+w8TPPe0fblq11y66Lxq+I/8Aj9N5JJsr3ciFS338FvzztLRykEEhn+UHj1PT955rnHaGvnRPJC3OldlX/n13nNdAO/mLWB3CKe8197k9AZ8I74//AOOFp01PvHZRbw6u3",
+      "productPicture": "https://www.bilgikilavuzu.com/wp-content/uploads/2016/12/kitaplar.jpg",
       "id": 1
+    },
+    {
+      "categoryId": "2",
+      "productName": "ayıcık",
+      "productPrice": "50",
+      "productPicture": "https://productimages.hepsiburada.net/s/67/375/110000009461952.jpg",
+      "id": 3
     }
   ],
   "categories": [
@@ -16,6 +23,10 @@
     {
       "categoryName": "kalem",
       "id": 2
+    },
+    {
+      "categoryName": "oyuncak",
+      "id": 3
     }
   ]
 }
