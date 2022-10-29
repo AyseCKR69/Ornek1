@@ -16,4 +16,9 @@ export class CategoryServiceService {
       categoryModel
     );
   }
+  GetCategoryList(): Observable<CategoryModel[]> {
+    return this._httpClient.get<CategoryModel[]>(
+      `${environment.apiUrl}Categories`
+    );
+  }
 }

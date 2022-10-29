@@ -29,6 +29,10 @@
       formControlName="productPicture"
     />
   </div>
+  <select formControlName="categoryId" name="cars"  class="form-select" id="cars">
+    <option value="0">Seçiniz</option>
+    <option *ngFor="let category of categoryList" [value]="category.id">{{category.categoryName}}</option>
+  </select>
   <div class="mb-3">
       <button class="btn btn-primary" (click)="onSubmit()">Kaydet</button>
   </div>

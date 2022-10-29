@@ -18,7 +18,7 @@ import { CategoryAddComponent } from './pages/categories/category-add/category-a
     FooterComponent,
     HomeComponent,
     ProductAddComponent,
-    CategoryAddComponent
+    CategoryAddComponent,
   ],
   imports: [
     BrowserModule,
