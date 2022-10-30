@@ -12,6 +12,9 @@ import { ProductAddComponent } from './pages/products/product-add/product-add.co
 import { CategoryAddComponent } from './pages/categories/category-add/category-add.component';
 import { ProductListComponent } from './pages/products/product-list/product-list/product-list.component';
 import { UserListComponent } from './pages/users/user-list/user-list.component';
+import { UserAddComponent } from './pages/users/user-add/user-add.component';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,13 +26,19 @@ import { UserListComponent } from './pages/users/user-list/user-list.component';
     CategoryAddComponent,
     ProductListComponent,
     UserListComponent,
+    UserAddComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot({
+      positionClass:"toast-top-right",
+    
+    }), // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]

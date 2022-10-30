@@ -28,5 +28,13 @@
       "categoryName": "oyuncak",
       "id": 3
     }
+  ],
+  "Users": [
+    {
+      "userName": "ayse çakır",
+      "userMail": "ayse@gmail.com",
+      "userPassword": "ayse",
+      "id": 1
+    }
   ]
 }
