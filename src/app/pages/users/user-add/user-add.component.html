@@ -1,1 +1,36 @@
-<p>user-add works!</p>
+<form [FormGroup]="userAddForm">
+    <div class="mb-3">
+      <label for="userName" class="form-label">user Name</label>
+      <input
+        type="text"
+        class="form-control"
+        name="userName"
+        placeholder="userName"
+        formControlName="userName"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="userMail" class="form-label">user Mail</label>
+      <input
+        type="text"
+        class="form-control"
+        name="userMail"
+        placeholder="user Mail"
+        formControlName="userMail"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="userPasword" class="form-label">user Password</label>
+      <input
+        type="text"
+        class="form-control"
+        name="userPassword"
+        placeholder="******"
+        formControlName="userPassword"
+      />
+    </div>
+   
+    <div class="mb-3">
+        <button class="btn btn-primary" (click)="OnSubmit()">Kaydet</button>
+    </div>
+  </form>

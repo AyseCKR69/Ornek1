@@ -10,7 +10,7 @@ import { UserService } from '../user.service';
 })
 export class UserAddComponent implements OnInit {
   
-  userAddForm = new FormGroup({
+    userAddForm = new FormGroup({
     userName: new FormControl('', []),
     userMail: new FormControl('', []),
     userPassword: new FormControl('', []),
