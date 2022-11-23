@@ -15,6 +15,7 @@ import { UserListComponent } from './pages/users/user-list/user-list.component';
 import { UserAddComponent } from './pages/users/user-add/user-add.component';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CategoryListComponent } from './pages/categories/category-list/category-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CategoryAddComponent,
     ProductListComponent,
     UserListComponent,
-    UserAddComponent
+    UserAddComponent,
+    CategoryListComponent
   ],
   imports: [
     BrowserModule,
